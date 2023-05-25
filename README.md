@@ -30,11 +30,11 @@ following in your `.pre-commit-config.yaml`:
 
 ```
 - repo: https://github.com/brk3/pre-commit-tfupdate
-	rev: 0.1.0
-	hooks:
-		- id: tfupdate
-			name: brk3/tfupdate
-			args: [tfregistryProvider, provider, mrparkers/keycloak, keycloak]
+  rev: 0.0.2
+  hooks:
+    - id: tfupdate
+      name: brk3/tfupdate
+      args: [tfregistryProvider, provider, mrparkers/keycloak, keycloak]
 ```
 
 ### Modules
@@ -54,9 +54,9 @@ the following in your `.pre-commit-config.yaml`:
 
 ```
 - repo: https://github.com/brk3/pre-commit-tfupdate
-	rev: 0.1.0
-	hooks:
-		- id: tfupdate
-			name: brk3/tfupdate
-			args: [tfregistryModule, module, terraform-aws-modules/rds/aws, terraform-aws-modules/rds/aws]
+  rev: 0.0.2
+  hooks:
+    - id: tfupdate
+      name: brk3/tfupdate
+      args: [tfregistryModule, module, terraform-aws-modules/rds/aws, terraform-aws-modules/rds/aws]
 ```
