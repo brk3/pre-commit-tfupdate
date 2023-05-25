@@ -32,7 +32,7 @@ following in your `.pre-commit-config.yaml`:
   rev: 0.0.2
   hooks:
     - id: tfupdate
-      name: brk3/tfupdate
+      name: Auto update mrparkers/keycloak provider
       args: [tfregistryProvider, provider, mrparkers/keycloak, keycloak]
 ```
 
@@ -56,6 +56,6 @@ the following in your `.pre-commit-config.yaml`:
   rev: 0.0.2
   hooks:
     - id: tfupdate
-      name: brk3/tfupdate
+      name: Auto update terraform-aws-modules/rds/aws module
       args: [tfregistryModule, module, terraform-aws-modules/rds/aws, terraform-aws-modules/rds/aws]
 ```
