@@ -3,9 +3,8 @@
 This repo contains a pre-commit hook for [tfupdate](https://github.com/minamijoyo/tfupdate), similar
 to what's offered by [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform).
 
-It allows for auto update of modules and non core providers, both of which are a limitation in
-`tfupdate` and hence antonbabenko/pre-commit-terraform
-(https://github.com/minamijoyo/tfupdate/issues/65).
+It allows for *auto update of modules and non core providers*, both of which are a limitation in
+`tfupdate` (https://github.com/minamijoyo/tfupdate/issues/65) and hence [antonbabenko/pre-commit-terraform](https://github.com/antonbabenko/pre-commit-terraform).
 
 # Usage
 
