@@ -1,0 +1,8 @@
+- id: tfupdate
+  name: tfupdate
+  description: Runs tfupdate on Terraform templates.
+  language: script
+  entry: hooks/tfupdate.sh
+  files: \.tf$
+  require_serial: true
+  pass_filenames: false
