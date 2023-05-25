@@ -48,7 +48,7 @@ module "db" {
 }
 ```
 
-To update this to the latest verison of `terraform-aws-modules/rds/aws`, place
+To update this to the latest version of `terraform-aws-modules/rds/aws`, place
 the following in your `.pre-commit-config.yaml`:
 
 ```
